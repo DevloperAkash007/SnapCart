@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Interactive an e-commerce application(shapCart)
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+    To create a fully functional e-commerce frontend using React.js, demonstrating proficiency in front-end development principles, responsive design, and state management
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Frontend - ReactJs(React Router,tailwindcss) 
+    Backend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Completion Instructions
 
-### `npm test`
+### Functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Must Have
 
-### `npm run build`
+    Build a ReactJS application with multiple pages/components, including Home, Product Listing, Product Details, Shopping Cart, and Checkout pages.
+    Implement features such as Product search, product filtering, adding to cart, removing from cart, and order placement.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Nice to Have
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Bonus tasks include implementing user authentication, unit tests, and deploying the application on a hosting platform.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Pages 
+    Page: Home
+        Page Details:
+        Navigation:
+    Page: Products
+        Page Details: Product Items, Search, Filter
+        Navigation:
+    Page: Product Details
+        Page Details: Product detailed Info , “Add to cart” Button
+        Navigation:
+    Page: Cart
+        Page Details: Cart Items, “Remove” Button, Checkout Info
+        Navigation:
+    Page: Checkout
+        Page Details: Form, “Place Order” Button
+        Navigation:
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Guidelines to develop a project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Must Have
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Utilize GitHub
+         Commit code regularly and commit messages should be clear
+         Include a README file explaining the project setup, usage instructions, and any additional information
+         The repo should be well organized and easy to understand.
+         The code should be clean, modular, and well-structured
+    The application should be visually appealing.
+    The application should handle all the errors.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Nice to Have
 
-## Learn More
+   Implement Unit Tests
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Submission Instructions
 
-### Code Splitting
+#### Must Have
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+    GitHub Repository: 
+        Submit a link to your GitHub repository containing your code.
+    README: 
+        Include a README file in the repository with the following information:
+            Setup Instructions: Detailed instructions on how to set up and run the project locally.
+            Approach Explanation: A brief explanation of your approach to the assignment.
+            Assumptions: Any assumptions you made during development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ 
+#### Nice to Have
 
-### Making a Progressive Web App
+    provide a link to a live demo of your project hosted on Vercel, Netlify, or a similar platform.
+    Ensure your code is clean, well-documented, and follows best practices
+   
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Resources
 
-### Advanced Configuration
+### Design files
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    Home - 'https://template.hasthemes.com/sinp/sinp/index-2.html', 
+    product Lists - 'https://template.hasthemes.com/sinp/sinp/shop-grid-4-column.html'
+    product Details -
+    Shopping Cart - https://template.hasthemes.com/sinp/sinp/cart.html
+    Checkout - https://template.hasthemes.com/sinp/sinp/checkout.html
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### APIs
 
-### `npm run build` fails to minify
+   products, product Details, Search, Filter
+   GetAllProducts: 'https://dummyjson.com/products'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Third-party packages
+
+   react-router-dom(BrowserRouter,Routes,Route,Navigation)
+   ReactContext
+   react-icons
+
+
