@@ -99,7 +99,6 @@ class App extends Component{
     <Route exact path='/' element={<Navigate to="/home" replace/>} />
     <Route exact path='/home' Component={Home}/>
     <Route exact path='/products' element={<Products/>}/>
-    <Route exact path='/products/:id'element={<ProductItemDetails/>}/> 
     <Route exact path='/cart' element={<Cart/>}/> 
     <Route exact path='/not-found' element={<NotFound/>}/>
     <Route path='*'  element={<Navigate to="/not-found" replace/>}/>

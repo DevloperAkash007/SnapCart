@@ -1,6 +1,6 @@
 # Title
 
-    Interactive an e-commerce application(shapCart)
+    Interactive an e-commerce application(SnapCart)
 
 ## Objective
 
@@ -8,8 +8,8 @@
 
 ## Tech Stack
 
-    Frontend - ReactJs(React Router,tailwindcss) 
-    Backend
+    Frontend - ReactJs(React Router,tailwindcss,React Context) 
+    Backend - dummyjson.com
 
 ## Completion Instructions
 
@@ -26,19 +26,19 @@
 
 #### Pages 
     Page: Home
-        Page Details:
-        Navigation:
+        Page Details: Navbar,  Hero sectionFeatured, products section, Footer
+        Navigation: products
     Page: Products
         Page Details: Product Items, Search, Filter
-        Navigation:
-    Page: Product Details
-        Page Details: Product detailed Info , “Add to cart” Button
         Navigation:
     Page: Cart
         Page Details: Cart Items, “Remove” Button, Checkout Info
         Navigation:
     Page: Checkout
         Page Details: Form, “Place Order” Button
+        Navigation:
+    page: NotFound 
+        page Details: 
         Navigation:
 
 
@@ -51,12 +51,11 @@
          Include a README file explaining the project setup, usage instructions, and any additional information
          The repo should be well organized and easy to understand.
          The code should be clean, modular, and well-structured
-    The application should be visually appealing.
-    The application should handle all the errors.
+    
 
 #### Nice to Have
 
-   Implement Unit Tests
+         Implement Unit Tests
 
 
 ### Submission Instructions
@@ -64,20 +63,35 @@
 #### Must Have
 
 
-    GitHub Repository: 
-        Submit a link to your GitHub repository containing your code.
-    README: 
-        Include a README file in the repository with the following information:
-            Setup Instructions: Detailed instructions on how to set up and run the project locally.
-            Approach Explanation: A brief explanation of your approach to the assignment.
-            Assumptions: Any assumptions you made during development
+    GitHub Repository:  
+            https://github.com/DevloperAkash007/SnapCart
+            
+    Setup Instructions: 
+            npm install - To install the depencencies
+            npm run - To start the application 
 
  
 #### Nice to Have
 
-    provide a link to a live demo of your project hosted on Vercel, Netlify, or a similar platform.
-    Ensure your code is clean, well-documented, and follows best practices
-   
+    Demo - https://snap-cart-2025-db09khwbm-akashs-projects-53eca9f9.vercel.app/home
+
+## Description:
+    SnapCart is a dynamic and modern e-commerce platform designed to provide users with a seamless online shopping experience. Built using React and integrated with Tailwind CSS for a responsive and aesthetically pleasing user interface, SnapCart offers features like product browsing, detailed product pages, a shopping cart, and secure checkout. The application provides users with real-time updates and ensures smooth navigation with fast page loads.
+
+    Key features:
+
+        User-friendly and intuitive interface
+
+        Responsive design for all devices
+
+        Real-time product updates and a dynamic shopping cart
+
+        Integration with secure payment systems for checkout
+
+    SnapCart aims to make online shopping more enjoyable by delivering speed, accessibility, and a simple but engaging user experience.
+
+
+ 
 
 ## Resources
 
@@ -85,7 +99,6 @@
 
     Home - 'https://template.hasthemes.com/sinp/sinp/index-2.html', 
     product Lists - 'https://template.hasthemes.com/sinp/sinp/shop-grid-4-column.html'
-    product Details -
     Shopping Cart - https://template.hasthemes.com/sinp/sinp/cart.html
     Checkout - https://template.hasthemes.com/sinp/sinp/checkout.html
 
@@ -97,8 +110,8 @@
 
 ### Third-party packages
 
-   react-router-dom(BrowserRouter,Routes,Route,Navigation)
-   ReactContext
+   react-router-dom (BrowserRouter,Routes,Route,Navigation)
+   ReactContext - Add product to cart
    react-icons
 
 
