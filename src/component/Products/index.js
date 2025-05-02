@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import {ThreeDots} from 'react-loader-spinner'
+
 
 import ProductCard from '../ProductCard'
 import Header from '../Header'
