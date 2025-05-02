@@ -73,7 +73,7 @@
  
 #### Nice to Have
 
-    Demo - https://snap-cart-2025-db09khwbm-akashs-projects-53eca9f9.vercel.app/home
+    Demo - https://snap-cart-psi.vercel.app/products
 
 ## Description:
     SnapCart is a dynamic and modern e-commerce platform designed to provide users with a seamless online shopping experience. Built using React and integrated with Tailwind CSS for a responsive and aesthetically pleasing user interface, SnapCart offers features like product browsing, detailed product pages, a shopping cart, and secure checkout. The application provides users with real-time updates and ensures smooth navigation with fast page loads.
