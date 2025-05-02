@@ -3,8 +3,9 @@ import './index.css'
 
 
 const ProductCard = props => {
-  const {productData} = props
-  const {title, brand, imageUrl, rating, price} = productData 
+  const {productData,clickAddBtn} = props
+  const {title, brand, imageUrl, rating, price,isClicked,id} = productData 
+  
 
 
 return <CartContext.Consumer>
@@ -13,6 +14,7 @@ return <CartContext.Consumer>
         const {addCartItem} = value
         const onClickAddToCart = () => {
           addCartItem({...productData,quantity:1})
+          clickAddBtn(id)
         }
 
         return (
@@ -32,7 +34,7 @@ return <CartContext.Consumer>
               </div>
               
             </div>
-            <button onClick={onClickAddToCart} className='add-to-cart-btn'>Add to Cart</button>
+            <button onClick={onClickAddToCart} className='add-to-cart-btn'>{isClicked? "Added": "Add to Cart"}</button>
           </li>
         )
       }}

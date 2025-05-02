@@ -4,7 +4,7 @@ import Cart from './component/Cart';
 import CartContext from './context/CartContext';
 import Home from './component/Home';
 import NotFound from './component/NotFound';
-import ProductItemDetails from './component/ProductItemDetails';
+
 import Products from './component/Products';
 
 

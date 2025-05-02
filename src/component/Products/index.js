@@ -1,8 +1,8 @@
 import { Component } from 'react'
 
 
-import ProductCard from '../ProductCard'
 import Header from '../Header'
+import ProductCard from '../ProductCard'
 
 import './index.css'
 
@@ -16,6 +16,21 @@ class Products extends Component {
 
   componentDidMount() {
     this.getProducts()
+  }
+
+  clickAddBtn = (id) => {
+    const {productsList} = this.state 
+    const updatedProductsList = productsList.map(item => {
+        if (item.id === id){
+           return {...item, isClicked: !item.isClicked}
+
+        }
+        return item
+
+    })
+    this.setState({
+        productsList: updatedProductsList
+    })
   }
 
   getProducts = async () => {
@@ -32,6 +47,7 @@ class Products extends Component {
         id: product.id,
         imageUrl: product.thumbnail,
         rating: product.rating,
+        isClicked: false
       }))
       this.setState({
         productsList: updatedData,
@@ -58,7 +74,7 @@ class Products extends Component {
         
         <ul className="products-list">
           {productsList.map(product => (
-            <ProductCard productData={product} key={product.id} />
+            <ProductCard productData={product} key={product.id} clickAddBtn={this.clickAddBtn}/>
           ))}
         </ul>
       </div>
@@ -69,9 +85,9 @@ class Products extends Component {
 
 
   render() {
-   const {productsList} = this.state
+   
 
-   const isEmpty = productsList === 0 ? true: false
+  
 
     return (
        <> 
